@@ -1,0 +1,44 @@
+.container{
+    display: flex;
+    margin: 0 auto;
+    width: fit-content;
+    flex-direction: column;
+    gap: 15px;
+    border: 1px solid black;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #34808a;
+    padding: 15px 50px
+}
+h1{
+    color: white;
+}
+
+.service-box{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+    gap: 45px;
+    border: none;
+    background-color: rgba(216, 65, 196, 0.884);
+    color: white;
+    font-weight: 700;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.total{
+    border-top: 1px solid white;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px;
+    font-weight: 700;
+}
+
+.serviceSelected{
+    background-color: rgb(71, 216, 71);
+}
